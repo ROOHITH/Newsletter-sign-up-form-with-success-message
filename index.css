@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/assets/fonts/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Roboto-Regular";
+}
+
+.mainDiv {
+  background-color: #323448;
+ 
+  
+}
+.box {
+  content: "";
+  width: 75% !important;
+  background-color: white;
+  padding: 25px;
+  border-radius: 25px;
+  
+}
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.pad {
+  padding: 10px;
+}
+p{
+    margin:0px !important;
+}
+ul{
+    padding-left: 0px !important;
+}
+ul img {
+    padding: 7px;
+}
+li{
+    list-style: none;
+}
+input ,button{
+    width: 100% ;
+}
+input{
+    padding:15px;
+   border-radius: 10px;
+}
+button{
+    margin-top: 20px !important;
+    border-radius: 10px !important;
+    border: none;
+    background-color: #232742;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button:hover{
+  background-color: #ff6644;
+  box-shadow: 0 0 10px #ff6644;
+  
+}
+.invalid-email {
+  border: 1px solid red !important;
+  color: red;
+  background-color: pink;
+}
+.invalidmsg{
+  color:red;
+}
+.mainImg{
+  width:100%;
+}
+.custom-layout {
+  display: flex;
+  align-items: center;
+}
+.custom-layout img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.custom-sweetalert {
+  width: 400px; /* Adjust the width as needed */
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.custome-layout-box ul li{
+font-size: 13px;
+text-align: justify;
+
+}
+.custom-confirm{
+  font-size: 13px;
+}
+/* Add media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .box {
+    width: 90% !important;
+  }
+
+  .custom-sweetalert {
+    width: 90%;
+  }
+
+  /* Adjust other styles as needed for smaller screens */
+}
+
+/* Add media queries for even smaller screens if necessary */
+@media screen and (max-width: 576px) {
+  .box {
+    width: 100% !important;
+  }
+
+  .custom-sweetalert {
+    width: 100%;
+  }
+
+  /* Adjust other styles as needed for the smallest screens */
+}
+
+/* 
+      .box {
+        background-color: white;
+        content: "";
+        min-height: 200px;
+        min-width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .div2 {
+        background-color: red;
+      }
+      .div1 {
+        background-color: yellow;
+      }
+      .div2 svg {
+        border: 1px solid green;
+      }
+.textBox{
+    padding:50px;
+
+}
+.heading{
+    font-weight: bold;
+    text-align: center;
+ font-size: 3rem;
+}
+ul{
+    padding: 0px !important;
+    
+}
+li{
+    
+    list-style-type: none;
+    padding: 5px;
+}
+li span{
+    padding-right: 6px;
+}
+.makePadding{
+padding-left: 20px !important;
+padding-right: 20px !important;
+} */
