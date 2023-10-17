@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://www.frontendmentor.io/solutions)
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://roohith.github.io/Newsletter-sign-up-form-with-success-message/)
+- Solution URL: https://www.frontendmentor.io/solutions)
+- Live Site URL: https://roohith.github.io/Newsletter-sign-up-form-with-success-message/
 
 
 
